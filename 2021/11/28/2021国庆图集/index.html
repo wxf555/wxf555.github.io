@@ -5,38 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="2021国庆图集, wxf blog">
-    <meta name="description" content="2021国庆假期图集补档:smiley:
-
-
-日期：
-上午
-下午
-晚上
-
-
-
-10月2日
-大雁塔周边
-明公园
-不夜城人挤人
-
-
-10月3日
-睡觉
-漫展
-没了
-
-
-10月2日早上
-某个寺庙旁
-
-流氓哥！！！
-
-靓仔你好
-
-tower
-
-塔上某">
+    <meta name="description" content="hey!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -274,10 +243,23 @@ tower
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = 'cc6aed2709b80e146bebc151f1cf1dec5e323b58148535a433529155030e3a52';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('宿舍号')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/03.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -734,8 +716,7 @@ tower
                 <a href="/2021/11/28/2021%E5%9B%BD%E5%BA%86%E5%9B%BE%E9%9B%86/">
                     <div class="card-image">
                         
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="2021国庆图集">
+                        <img src="/medias/images/03.jpg" class="responsive-img" alt="2021国庆图集">
                         
                         <span class="card-title">2021国庆图集</span>
                     </div>
@@ -743,7 +724,7 @@ tower
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            hey!
                         
                     </div>
                     <div class="publish-info">
